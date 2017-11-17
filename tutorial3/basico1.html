@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--html: le da la estructura las pagincas web
+	css: le da la aparencia, y los estilos en general a las paginas
+	javascript: le da interactividad y animaciones a la pagina -->
+<html> <!-- <html lang = "es"> atributo para poner el idioma-->
+	<head> <!--lo que esta dentro del head no se ve-->
+		<!--tipo de letra del texto-->
+		<meta charset = "UTF-8"/>
+		<!--esta meta, explica de que trata mi pagina web-->
+		<meta name = "description" contents = "tutorial con pildoras informaticas"/>
+		<!--keywords, o palabras claves, para que el buscador encuentre mi pagina-->
+		<meta name = "keywords" content = "html5, css3, javascript"/>  
+		<!--cambia el texto de la pestaña, y ademas la info del title sirve para los buscadores-->
+		<title>Programacion en HTML5</title>
+		<!--agrega los rstilos css, o codigo js, o iconos-->
+		<link rel = "stylesheet" href = "mi_hoja_estilos.css"/>
+	</head>
+
+	<body><!--es el cuerpo de la pagina web, es lo que se va a ver-->
+
+		<header><!--poner el titulo a mi pagina, por ejemplo el logo de la empresa-->
+			<h1>HTML5: Primer Tutorial</h1> <!--si pongo h2, el tamnio del titulo reduce-->
+		</header>
+		
+		<nav><!--para poner una barra de navegacion verticales, con css seran horizontal-->
+			<ul><!--construye una lista/items desordenada, con ol la list se ordena por numero-->
+				<li>Quienes Somos?</li>
+				<li>Productos</li>
+				<li>Clientes</li>
+				<li>Contacto</li>
+			</ul>
+		</nav>
+
+		<aside><!--contenido en la barra lateral, para navegar con vinculos hacia mi web-->
+			<blockquote>Primer elemento</blockquote>
+			<blockquote>Segundo elemento</blockquote>
+			<blockquote>Tercer elemento</blockquote>
+
+		</aside>
+
+		<section> <!--contenido principal, en gral es texto-->
+
+			<article>
+
+				<header>
+
+					<hgroup> <!--para agrupar las h, si hay una sola no usar-->
+						<h2>Noticia 1</h2>
+						<h3>Subtitulo de noticia1</h3>
+					</hgroup>
+
+				</header>
+
+				<figure> <!--para insertar imagenes o figuras-->
+					<img src="images/paisaje.jpg"/>
+					<figcaption>
+						Paisaje verde
+					</figcaption>
+				</figure>
+
+				<p>cuerpo de noticia 1</p>
+				<p>Cuando paso la noticia 1</p>
+
+				<footer>
+					<p>comentarios de notica 1</p>
+				</footer>
+
+			</article>
+
+			<article><!--sirve para grupar contenido similar de un mismo tema-->
+
+				<header>
+					<h2>Titulo de la noticia 2</h2>
+				</header>
+
+				<p>cuertpo de 2</p>
+				<p>Cuando paso la noticia 2</p>
+
+				<footer>
+					<p>Comentarios de noticia 2</p>
+				</footer>
+
+			</article>
+	
+		</section>
+
+		<footer>
+			Derechos reservados, telefono: 237283783
+		</footer>
+	</body>
+
+</html>
+
