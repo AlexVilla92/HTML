@@ -1,0 +1,5 @@
+/*selector de etiquetas, modifico el colo de fondo*/
+body {
+	background-color: #00f; /*tipo de comando y el color en hexa*/
+}
+
