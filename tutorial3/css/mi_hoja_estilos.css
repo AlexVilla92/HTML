@@ -4,24 +4,36 @@
 }*/
 
 /*modelo de caja contenedor*/
-#cabeceraweb { /*selector de id, va en el html tambien*/
-	background-color: #00f;
+/*selector de id */
+#cabeceraweb { /* header principal, va en el html tambien*/
+	background-color: #00f;/*azul*/
 }
 
-#navegacionprincipal {
-	background-color: #f00;
+#navegacionprincipal {/*nav principal*/
+	background-color: #f00;/*rojo*/
 }
 
-#barralateral {
-	background-color: #0f0;
+#barralateral {/*aside*/
+	background-color: #0f0; /*fosforesente*/
+	float: left;
+	height: 2945px;/*altura de la barra lateral*/
 }
 
-#contenidoprincipal {
-	background-color: #606;
+#contenidoprincipal {/*section*/
+	background-color: #606;/*purpura*/
+	margin-left: 250px; /*margen izq, correr el contenido a izq*/
+	padding-top: 15px;
+	padding-bottom: 5px;
+	padding-left: 5px;
 }
 
-#pieprincipal {
+#pieprincipal {/*footer*/
+	background-color: #ff0;/*amarillo*/
+}
+
+/*selector de etiqueta*/
+li {
 	background-color: #ff0;
+	display: inline;/*pasamos de ser un block a inline*/
+	/*en castellano pongo los items uno al lado de otro*/
 }
-
-
