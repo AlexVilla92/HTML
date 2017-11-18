@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--html: le da la estructura las pagincas web
+	css: le da la aparencia, y los estilos en general a las paginas
+	javascript: le da interactividad y animaciones a la pagina -->
+<html> <!-- <html lang = "es"> atributo para poner el idioma-->
+	<head> <!--lo que esta dentro del head no se ve-->
+		<!--tipo de letra del texto-->
+		<meta charset = "UTF-8"/>
+		<!--esta meta, explica de que trata mi pagina web-->
+		<meta name = "description" content = "peliculas estrenos"/>
+		<!--keywords, o palabras claves, para que el buscador encuentre mi pagina-->
+		<meta name = "keywords" content = "cine, pelicula, terror, star wars"/>  
+		<!--cambia el texto de la pestaña, y ademas la info del title sirve para los buscadores-->
+		<title>Espectaculos</title>
+		<!--agrega los rstilos css, o codigo js, o iconos-->
+		<link rel = "stylesheet" href = "css/mi_hoja_estilos.css"/>
+
+		<style>
+			#barralateral {
+				background-color: #f00;
+			}
+		</style>
+	</head>
+
+	<body><!--es el cuerpo de la pagina web, es lo que se va a ver-->
+
+		<header id="cabeceraweb"><!--titulo a mi pagina, por ejemplo el logo de la empresa-->
+			<h1>Estrenos taquilleros de 2017</h1> <!--si pongo h2, el tamnio del titulo reduce-->
+		</header>
+		
+		<nav id="navegacionprincipal"><!--poner una barra de navegacion ver,con css seran horiz-->
+			<ul><!--construye una lista/items desordenada, con ol la list se ordena por numero-->
+				<li>Cines</li>
+				<li>Cast</li>
+				<li>Sinopsis</li>
+				<li>Contacto</li>
+			</ul>
+		</nav>
+
+		<aside id="barralateral"><!--contenido en la barra lateral, para navegar con vinculos hacia mi web-->
+			<blockquote>Peliculas argentinas</blockquote>
+			<blockquote>Peliculas brasileras</blockquote>
+			<blockquote>Peliculas alemanas</blockquote>
+		</aside>
+
+		<section id="contenidoprincipal"> <!--contenido principal, en gral es texto-->
+			<article>
+
+				<header>
+					<hgroup> <!--para agrupar las h, si hay una sola no usar-->
+						<h2><cite>Star Wars: The last jedi</cite></h2>
+						<h3>El estreno mas esperado</h3>
+					</hgroup>
+					<time datetime="2017/11/17" pubdate>Noticia publicada el 17/11/17</time>
+				</header>
+
+				<figure> <!--para insertar imagenes o figuras-->
+					<img src="images/star_wars_last_jedi.png"/>
+					<figcaption>
+						Hace mucho tiempo, en una galaxia muy muy lejana....
+					</figcaption>
+				</figure>
+
+				<p>	
+					El estreno mas esperado del 2017, podremos ver a <em>luke</em> de nuevo en accion?,
+					de quien es hija rey?, que pasara con la princesa leia?, podra chewbacca aprender a usar la fuerza?, es jar jar binks el ultimo jedi?, <strong>yoda</strong> y e.t. son hermanos? 
+				</p>
+
+				<footer>
+					<p><mark>Comenta sobre star wars</mark></p>
+				</footer>
+			</article>
+
+			<article><!--sirve para grupar contenido similar de un mismo tema-->
+
+				<header>
+					<hgroup>
+						<h2>Anabelle 2</h2>
+						<h3>La malvada muñeca vuelve para aterrorizarnos</h3>
+					</hgroup>
+					<time datetime="2017/11/17" pubdate>Noticia publicada el 17/11/17</time>
+				</header>
+
+				<figure>
+					<img src="images/anabelle2.jpg"/>
+					<figcaption>
+						Anabelle en su santuario...
+					</figcaption>
+				</figure>
+
+				<p>Se estrena la secuela de la muñeca poseida</p>
+				<p>Se espera que tenga el mismo exito que la primera parte, pero por el momento no supera a la saga de <cite>chuky el muñeco diabolico</cite> </p>
+
+				<footer>
+					<p>Comenta sobre anabelle</p>
+				</footer>
+
+				<article>
+
+					<header>
+						<hgroup>
+							<h2>Jumanji 2</h2>
+							<h3>La decepcion del siglo</h3>
+						</hgroup>
+						<time datetime="2017/11/17" pubdate>Noticia publicada el 17/11/17</time>
+					</header>
+
+					<figure>
+						<img src="images/jumanji.jpeg"/>
+						<figcaption>
+							Dwayne Johnson "The Rock"...
+						</figcaption>
+					</figure>
+
+					<p> Jake Kasdan ha decidido hacer la segunda parte de la obra maestra de <cite>Jumanji</cite>, de momento no sabemos si tendra exito, lo que si podemos asegurar es que <em><strong>robin williams</strong></em> debe estar revolcandose en su tumba, por lo que le han hecho a su franquicia</p>
+					<p>Basta con ver el trailer para odiar a esta pelicula, pero sobre todo al director, que utilizo el nombre de <cite>Jumanji</cite> para realizar este payazesco film </p>
+
+					<footer>
+						<p> <mark>Comenta sobre esta pelicula(sin putear, please)</mark></p>
+					</footer>
+				</article>
+			</article>
+		</section>
+
+		<footer id="pieprincipal">
+			<small>Derechos reservados copyright</small> <address>telefono: 237283783</address> 
+		</footer>
+	</body>
+	<!--small, sirve solo para el copyright, achica las palabras
+		address, sirve para direcciones, telefonos, por lo gral estos dos van en el footer
+		cite, se utiliza cuando nombras a un libro o una pelicula
+		mark, sirve para remarcar texto, por default es en amarillo
+		strong, te pone el texto en negrita
+		em, te pone el texto en cursiva
+		time, es para poner la fecha de la noticia-->
+</html>
+
