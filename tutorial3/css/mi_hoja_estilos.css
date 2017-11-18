@@ -1,5 +1,27 @@
 /*selector de etiquetas, modifico el colo de fondo*/
-body {
-	background-color: #00f; /*tipo de comando y el color en hexa*/
+/*body {
+	background-color: #00f; /*tipo de comando y el color en hexa, pinto el fondo de color azul
+}*/
+
+/*modelo de caja contenedor*/
+#cabeceraweb { /*selector de id, va en el html tambien*/
+	background-color: #00f;
 }
+
+#navegacionprincipal {
+	background-color: #f00;
+}
+
+#barralateral {
+	background-color: #0f0;
+}
+
+#contenidoprincipal {
+	background-color: #606;
+}
+
+#pieprincipal {
+	background-color: #ff0;
+}
+
 
